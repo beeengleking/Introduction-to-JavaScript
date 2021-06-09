@@ -19,13 +19,13 @@ Do the following:
 */
 const votingAge = 24,
 if (votingAge <= 18) {
-    return true
+    return true;
   else {
-  return false
+    return false;
   }
 }
   
-
+consol.log(votingAge);
 
 
 
@@ -69,13 +69,11 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
-const num1 = 10
-const num2 = 2
-function multiply(num1, num2){
-   return num1 * num2
+function multiply(a, b){
+  return a * b;
   }
 
-
+console.log(multiply(1,3))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
