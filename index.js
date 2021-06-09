@@ -17,6 +17,15 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 24,
+if (votingAge <= 18) {
+    return true
+  else {
+  return false
+  }
+}
+  
+
 
 
 
@@ -30,9 +39,12 @@ Do the following:
 
    HINT: no function required
 */
+const weather = 'hot' 
+const temperature = 90
 
-
-
+if (temperature >= 90) {
+  weather = 'hot'
+}
 
 
 /*
@@ -45,8 +57,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+const year = '1999'
+consol.log Number(1999);
 
 
 /*
@@ -57,9 +69,10 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
-
-function multiply(/*add your code here*/){
-    /*add your code here*/
+const num1 = 10
+const num2 = 2
+function multiply(num1, num2){
+   return num1 * num2
   }
 
 
@@ -107,8 +120,11 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(weight, age){
+  if (age >= 1 && weight <= 5) {
+    return weight * 0.05;
+  } else if (age >= 1 && weight >= 6 && weight <= 10) {
+    }
   }
 
 
